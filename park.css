@@ -1,0 +1,76 @@
+.row-first{
+    margin-top: 30px;
+}
+
+.option-box{
+    background-color: rgb(166, 217, 241);
+    height: 700px;
+    flex-direction: column;
+    padding-top: 200px;
+    border: 1px solid rgb(193, 202, 253);
+    padding-left: 20px;
+}
+
+#map-box{
+    border: 1px solid rgb(202, 224, 252);
+    height: 700px;
+    overflow: hidden;
+}
+
+.input{
+    z-index: 10;
+    position: absolute;
+    left: 400px;
+    display: flex;
+    padding-top: 20px;
+    margin: auto;
+    width: 400px;
+    box-shadow: 0 5px 6px -6px black;
+}
+
+.option{
+    margin: auto;
+}
+
+.park-btn{
+    margin-bottom: 10px;
+    width: 300px;
+    margin: auto;
+    background-color:rgb(240, 245, 245);
+    color: rgb(36, 156, 185);
+    border: 1px solid rgb(127, 203, 226);
+}
+
+@media screen and (max-width: 1440px) {
+    .park-btn{
+        width: 200px;
+    }
+
+    .input{
+        width: 300px;
+        left : 350px;
+    }
+  }
+
+  
+@media screen and (max-width: 600px) {
+    .park-btn{
+        width: 100px;
+    }
+    .input{
+        width: 90%;
+        left : 20px;
+    }
+  }
+
+  
+  @media screen and (max-width: 144px)
+  {
+    .park-btn{
+        width: 60px;
+    }
+    .input{
+        width: 20px;
+        left: 20px;
+    }
+  }

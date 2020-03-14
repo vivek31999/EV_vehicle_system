@@ -1,0 +1,64 @@
+.row{
+    margin: 20px;
+}
+
+.search{
+    margin-top: 4px;
+    height:220px;
+    padding-top:20px;
+    width: 600px;
+}
+
+
+
+.dak{
+    margin: 4px;
+    width: 40%;
+    color:white;
+    background-color:green;
+   
+}
+.dank
+{  
+    margin:7px;
+    width: 40%;
+    background-color:rgb(221, 74, 235);
+    color: white;
+    
+}.dankk
+{  
+    margin:7px;
+    width: 40%;
+    background-color:brown;
+    color: white;
+    
+}
+.dankkk
+{  
+    margin:7px;
+    width: 39%;
+    background-color:rgb(194, 207, 78);
+    color: white;
+    
+}
+
+.dak:hover
+{
+    color:white;
+}
+.dank:hover
+{
+    color:white;
+}
+
+.option
+{   
+    width: 390px;
+    height:200px;
+    border: 1px solid black;;
+    padding-left:40px ;
+    align-items: center;
+    padding-top:40px;
+    
+}  
+

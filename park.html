@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="park.css">
+    <!--  -->
+    <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-core.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-service.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
+    <title>Parking</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row row-first">
+            <div class="col-lg-3 col-md-4 col-sm-3 col-3 option">
+                <div class="option-box">
+                    <div><button class="btn btn-primary park-btn">Parking</button></div>
+                    <div><button class="btn btn-primary park-btn">Charge</button></div>
+                    <div><button onclick="showTraffic()" class="btn btn-primary park-btn">Traffic</button></div>
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-8 col-sm-9 col-9 map">
+                <div id="map-box">
+                    <div class="input"><input class="form-control" type="text" placeholder="search"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="map.js"></script>
+</body>
+</html>
